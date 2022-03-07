@@ -3,19 +3,10 @@ public class Main {
     public static void main(String[] args) {
         int ticketPrice = 26711;
         int rubblesPer1Miles = 20;
-        int miles = ticketPrice / rubblesPer1Miles;
+
+        int BonusMiles = ticketPrice / rubblesPer1Miles;
 
 
-            System.out.println("Бонус = " + miles + " миль");
-
-
-        // Объявляете переменные для входных данных и
-        // параметров программы: одну для хранения
-        // стоимости билета, другую для хранения количества
-        // рублей для одной бонусной милли
-
-        // Рассчитываете количество бонусных милль, используя
-        // значения заведённых переменных. Ответ сохраняете в
-        // новую переменную и выводите на экран
+        System.out.println("Бонус = " + BonusMiles + " миль");
     }
 }
