@@ -4,9 +4,9 @@ public class Main {
         int ticketPrice = 26711;
         int rubblesPer1Miles = 20;
 
-        int BonusMiles = ticketPrice / rubblesPer1Miles;
+        int bonusMiles = ticketPrice / rubblesPer1Miles;
 
 
-        System.out.println("Бонус = " + BonusMiles + " миль");
+        System.out.println("Бонус = " + bonusMiles + " миль");
     }
 }
